@@ -1,0 +1,1 @@
+The goal of this project is to become familiar with the Chrome developer tools by using them to modify Google's landing page.
