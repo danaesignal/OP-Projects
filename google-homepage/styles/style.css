@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  clear: right;
+}
+.main .doodle {
+  margin: 0 auto;
+  width: 392px;
+}
+
+.nav {
+  height: 75px;
+  float: right;
+  margin-bottom: 10px;
+}
+.nav li {
+  display: inline-block;
+  float: left;
+  padding: 5px 10px;
+  margin-top: -10px;
+}
+
+.nav li:last-of-type {
+  background-color: rgb(104, 124, 214);
+  color: white;
+  margin-right: 15px;
+  border-radius: 2px;
+}
+
+.search {
+  text-align: center;
+}
+
+#query {
+
+}
+
+#query input {
+  width: 30%;
+  padding: 12px;
+  margin: 25px auto;
+  box-shadow: 0px 1px 7px gray;
+  border: none;
+  position:relative;
+  left:10px;
+}
+
+.button {
+  display: inline-block;
+}
+
+.button input {
+  border: none;
+  /*border: 1px solid gray;*/
+  width: 125px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  background-color: rgb(237, 238, 242);
+  font-weight: bold;
+  color: gray;
+}
+
+.activate input {
+  margin-right: 5px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+span {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 11px;
+  right: 20px;
+}
+
+
+#mic img {
+  height: 30px;
+  width: 30px;
+}
+
+#squares {
+  margin-left: -5px;
+  margin-right: 7px;
+}
+
+#squares img {
+  height: 20px;
+  width: 20px;
+}
