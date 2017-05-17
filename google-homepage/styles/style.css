@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  color:gray;
+  font-family: 'Arial', sans-serif;
 }
 
 .main {
@@ -14,6 +16,7 @@
   height: 75px;
   float: right;
   margin-bottom: 10px;
+  font-size: .95em;
 }
 .nav li {
   display: inline-block;
@@ -74,7 +77,12 @@
 
 .footer a {
   text-decoration: none;
+  font-size: .85em;
 }
+
+.footer a:link { color: #0000EE; }
+
+.footer a:visited { color: #551A8B; }
 
 span {
   height: 30px;
