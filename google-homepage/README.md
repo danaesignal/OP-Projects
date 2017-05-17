@@ -1,1 +1,1 @@
-The goal of this project is to become familiar with the Chrome developer tools by using them to modify Google's landing page.
+The goal of this project is to demonstrate basic HTML and CSS techniques by replicating Google's search page, supported by use of the Chrome Developer tools to better unveil and duplicate certain elements.
