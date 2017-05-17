@@ -1,0 +1,1 @@
+This repository serves as a space to store work involving or related to the Odin Project's curriculum.
