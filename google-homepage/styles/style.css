@@ -26,7 +26,7 @@
 }
 
 .nav li:last-of-type {
-  background-color: rgb(104, 124, 214);
+  background-color: #4285f4;
   color: white;
   margin-right: 15px;
   border-radius: 2px;
