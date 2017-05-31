@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  border: 1px solid black;
+  /*margin: 1px;*/
+}
+
+#sketchpad {
+  width: 90%;
+  margin: 10px auto;
+  text-align: center;
+  height: 900px;
+  z-index: -1; 
+}
+
+#sketchpad div {
+  height: 25%;
+  width: 25%;
+  float: left;
+  display: inline-block;
+}
+
+
+/*Clearfix*/
+
+.clearfix:after { content: "\00A0"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+.clearfix{ display: inline-block;}
+html[xmlns] .clearfix { display: block;}
+* html .clearfix{ height: 1%;}
+.clearfix {display: block}
