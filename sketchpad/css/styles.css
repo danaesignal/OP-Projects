@@ -8,11 +8,12 @@ div {
 }
 
 #sketchpad {
-  width: 90%;
+  width: 900px;
   margin: 10px auto;
   text-align: center;
   height: 900px;
-  z-index: -1; 
+  z-index: -1;
+  border: none;
 }
 
 #sketchpad div {
@@ -22,7 +23,20 @@ div {
   display: inline-block;
 }
 
+.header {
+  text-align: center;
+  margin: 0 auto;
+  width: 250px;
+  height: 50px;
+}
 
+#reset-button {
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
 /*Clearfix*/
 
 .clearfix:after { content: "\00A0"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
